@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Learning</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Chapter No.49 Reading Field Values in JavaScript</h1>
+  
+  <!-- 
+    now on submission of the form let's check the email
+    we'll be calling a js function on submission of the form -->
+
+    <!-- with some limitation like page refresh -->
+    <!-- <form onsubmit="checkAddress()">
+        Email:
+        <input type="email" id="userEmail">
+        <input type="submit" value="Submit">
+    </form> -->
+
+
+    
+    <!-- without page refresh -->
+    <form onsubmit="checkAddress(event)">
+      Email:
+      <input type="email" id="userEmail">
+      <input type="submit" value="Submit">
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
